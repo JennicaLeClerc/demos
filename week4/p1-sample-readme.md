@@ -68,9 +68,9 @@ All classes which represent objects in database must be annotated.
 - #### @Column(name = "column_name)
   - Indicates that the Annotated field is a column in the table with the name 'column_name'
 - #### @Setter(name = "column_name")
-  - Indicates that the anotated method is a setter for 'column_name'.
+  - Indicates that the annotated method is a setter for 'column_name'.
 - #### @Getter(name = "column_name")
-  - Indicates that the anotated method is a getter for 'column_name'.
+  - Indicates that the annotated method is a getter for 'column_name'.
 - #### @PrimaryKey(name = "column_name")
   - Indicates that the annotated field is the primary key for the table.
 - #### @SerialKey(name = "column_name")
@@ -85,7 +85,7 @@ All classes which represent objects in database must be annotated.
 - #### `public boolean addClass(final Class<?> clazz)`
   - Adds a class to the ORM. This is the method to use to declare a Class is an object inside of the database.
 - #### `public boolean UpdateObjectInDB(final Object obj,final String update_columns)`
-  - Updates the given object in the databse. Update columns is a comma seperated lsit fo all columns in the onject which need to be updated
+  - Updates the given object in the database. Update columns is a comma separated list for all columns in the object which need to be updated
 - #### `public boolean removeObjectFromDB(final Object obj)`
   - Removes the given object from the database.
 - #### `public boolean addObjectToDB(final Object obj)`
@@ -94,11 +94,11 @@ All classes which represent objects in database must be annotated.
 - #### `public Optional<List<Object>> getListObjectFromDB(final Class <?> clazz, final String columns, final String conditions,final String operators)`
 - #### `public Optional<List<Object>> getListObjectFromDB(final Class<?> clazz)`
   - Gets a list of all objects in the database which match the included search criteria
-    - columns - comma seperated list of columns to search by.
-    - conditions - coma seperated list the values the columns should match to.
-    - operators - comma seperated list of operators to apply to columns (AND/OR) in order that they should be applied.
+    - columns - comma separated list of columns to search by.
+    - conditions - coma separated list the values the columns should match to.
+    - operators - comma separated list of operators to apply to columns (AND/OR) in order that they should be applied.
 - #### `public void beginCommit()`
-  - begin databse commit.
+  - begin database commit.
 - #### `public void Rollback()`
   - Rollback to previous commit.
 - #### `public void Rollback(final String name)`
@@ -112,7 +112,7 @@ All classes which represent objects in database must be annotated.
 - #### `public void setTransaction()`
   - Start a transaction block.
 - #### `public void addAllFromDBToCache(final Class<?> clazz)`
-  - Adds all objects currently in the databse of the given clas type to the cache.
+  - Adds all objects currently in the database of the given class type to the cache.
 
 ## License
 
