@@ -41,7 +41,7 @@ Additionally, you will need to build a simple CRUD web application (what objects
 ## Init Instructions
 
 - Create a new repository within this organization for your custom ORM (naming convention: `orm_name_p1`; with `orm_name` being replaced by the name of your custom library)
-- Create another new repostory within this organization for your web application
+- Create another new repository within this organization for your web application
 
 ## Presentation
 
